@@ -1,0 +1,4 @@
+# Created by cloud-init v. 0.7.5 on Mon, 15 Aug 2016 03:48:31 +0000
+# Create file /etc/sudoers.d/90-cloud-init-users
+# User rules for username
+username ALL=(ALL) NOPASSWD:ALL
