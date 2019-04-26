@@ -1,0 +1,1 @@
+root@movies:/disk1# rsync -avh --stats --progress Source_folder/ /Datastore/target_folder/
