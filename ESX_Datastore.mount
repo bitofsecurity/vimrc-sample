@@ -1,0 +1,15 @@
+cat /etc/systemd/system/ESX_Datastore.mount
+
+[Unit]
+Description=Datastore on HP N36L
+After=network.target
+
+[Mount]
+What=10.10.10.10:/mnt/user/ESX_Datastore
+Where=/ESX_Datastore
+Type=nfs
+Options=_netdev,auto,nolock
+
+[Install]
+WantedBy=multi-user.target
+
